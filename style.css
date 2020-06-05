@@ -5,7 +5,6 @@ html{
     scroll-behavior: smooth;
 }
 /*--Start-Header--*/
-
 .header-section::before{ 
     content: "";
     position: absolute;
@@ -46,16 +45,13 @@ html{
 
 /*--Start Navbar--*/
 .navbar{
-    background: transparent !important;
-    z-index: 20 !important;
-    display: flex !important;
-    top: 0 !important;
-    position: sticky !important;
+    overflow: hidden;
+    background: rgb(255, 247, 247) !important;
 }
 
 .navbar-brand img{
-    width: 250px !important;
-    height: 220px !important;
+    width: 270px !important;
+    height: 50px !important;
     color: tomato;
 }
 
